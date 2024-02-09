@@ -16,7 +16,7 @@ What difference do you observe between the consumption patterns? Does the differ
 
 *Cardholder 2 is making many small daily transactions with their card, while cardholder 18 is making large but infrequent transactions. I do not believe this is evidence of fraud occuring on these cards.*
 
-###Cardholder 25 outlier transactions:
+### Cardholder 25 outlier transactions:
 
 ![image](https://github.com/Mccalabrese/SQL-and-Postgre-to-detect-fraud/blob/3147a22460f9f06c5536a5fa1a570b412c034e70/Images/Screenshot%202024-02-09%20at%203.09.35%E2%80%AFPM.png)
 
@@ -46,5 +46,5 @@ If you answered yes to the previous question, explain why you think there might 
 
 What are the top 5 merchants prone to being hacked using small transactions?
 
-*The top 5 marchants are Wood-Ramirez, Hood-Philips, Baker Inc, Clark and Sons, and Greene-Wood.
+*The top 5 marchants are Wood-Ramirez, Hood-Philips, Baker Inc, Clark and Sons, and Greene-Wood.*
 
