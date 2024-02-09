@@ -1,6 +1,7 @@
 # Module-7-Challenge
 
-## Instructions: visual_data_analysis.ipynb contains the bulk of my code, the outliers by standard deviation and interquartile range can be found in the challenge.ipynb file. I have included my schema.sql file for my SQL schema and queries.sql file for my queries run directly in SQL.
+## Instructions: 
+visual_data_analysis.ipynb contains the bulk of my code, the outliers by standard deviation and interquartile range can be found in the challenge.ipynb file. I have included my schema.sql file for my SQL schema and queries.sql file for my queries run directly in SQL.
 
 ### Quick database diagram:
 
@@ -33,8 +34,6 @@ Is there any evidence to suggest that a credit card has been hacked? Explain you
 ### Transactions between 7am and 9am:
 
 Do you see any anomalous transactions that could be fraudulent?
-
-Is there a higher number of fraudulent transactions made during this time frame versus the rest of the day?
 
 *There are 8 transactions over $1000 that may warrent attention.*
 
