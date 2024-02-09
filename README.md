@@ -1,16 +1,16 @@
 # Module-7-Challenge
 
-##Instructions: visual_data_analysis.ipynb contains the bulk of my code, the outliers by standard deviation and interquartile range can be found in the challenge.ipynb file. I have included my schema.sql file for my SQL schema and queries.sql file for my queries run directly in SQL.
+## Instructions: visual_data_analysis.ipynb contains the bulk of my code, the outliers by standard deviation and interquartile range can be found in the challenge.ipynb file. I have included my schema.sql file for my SQL schema and queries.sql file for my queries run directly in SQL.
 
-###Quick database diagram:
+### Quick database diagram:
 
-![image]
+![image](https://github.com/Mccalabrese/SQL-and-Postgre-to-detect-fraud/blob/3147a22460f9f06c5536a5fa1a570b412c034e70/Images/QuickDBD-Free%20Diagram.png)
 
-###Cardholder 2 and 18 timeseries transactions:
+### Cardholder 2 and 18 timeseries transactions:
 
-![image]
-![image]
-![image]
+![image](https://github.com/Mccalabrese/SQL-and-Postgre-to-detect-fraud/blob/3147a22460f9f06c5536a5fa1a570b412c034e70/Images/Screenshot%202024-02-09%20at%203.09.59%E2%80%AFPM.png)
+![image](https://github.com/Mccalabrese/SQL-and-Postgre-to-detect-fraud/blob/3147a22460f9f06c5536a5fa1a570b412c034e70/Images/Screenshot%202024-02-09%20at%203.09.54%E2%80%AFPM.png)
+![image](https://github.com/Mccalabrese/SQL-and-Postgre-to-detect-fraud/blob/3147a22460f9f06c5536a5fa1a570b412c034e70/Images/Screenshot%202024-02-09%20at%203.09.50%E2%80%AFPM.png)
 
 What difference do you observe between the consumption patterns? Does the difference suggest a fraudulent transaction? Explain your rationale in the markdown report.
 
@@ -18,19 +18,19 @@ What difference do you observe between the consumption patterns? Does the differ
 
 ###Cardholder 25 outlier transactions:
 
-![image]
+![image](https://github.com/Mccalabrese/SQL-and-Postgre-to-detect-fraud/blob/3147a22460f9f06c5536a5fa1a570b412c034e70/Images/Screenshot%202024-02-09%20at%203.09.35%E2%80%AFPM.png)
 
 Are there any outliers for cardholder ID 25? How many outliers are there per month? Do you notice any anomalies? Describe your observations and conclusions.
 
 *There are certainly 9 outlier transactions, however I would not use this necessarily as evidence of fraud. These outliers potentially suggest cause to verify these transactions with the customer. There are approximatly 1.5 outliers per month.*
 
-###Transactions under $2 by card:
+### Transactions under $2 by card:
 
 Is there any evidence to suggest that a credit card has been hacked? Explain your rationale.
 
 *While a large number of small transactions may be a suggestion of potential fraud I do not believe it is strong evidence.*
 
-###Transactions between 7am and 9am:
+### Transactions between 7am and 9am:
 
 Do you see any anomalous transactions that could be fraudulent?
 
@@ -42,7 +42,7 @@ If you answered yes to the previous question, explain why you think there might 
 
 *Because these transactions are very large and occuring during a suspect timeframe, I believe they may warrant verification.*
 
-###Small transactions by merchant:
+### Small transactions by merchant:
 
 What are the top 5 merchants prone to being hacked using small transactions?
 
