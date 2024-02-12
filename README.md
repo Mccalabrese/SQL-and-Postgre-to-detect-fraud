@@ -23,7 +23,7 @@ What difference do you observe between the consumption patterns? Does the differ
 
 Are there any outliers for cardholder ID 25? How many outliers are there per month? Do you notice any anomalies? Describe your observations and conclusions.
 
-*There are certainly 9 outlier transactions, however I would not use this necessarily as evidence of fraud. These outliers potentially suggest cause to verify these transactions with the customer. There are approximatly 1.5 outliers per month.*
+*There are certainly 9 outlier transactions in every month of the first semester of 2018 with the exception of febuary. These anomalous transactions repeat more frequently as time goes on, as seen in the above box plot. There are approximatly 1.5 outliers per month, however these start infrequently and increase with time. Cardholder 25 may have been hacked.*
 
 ### Transactions under $2 by card:
 
