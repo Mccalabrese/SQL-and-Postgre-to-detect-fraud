@@ -12,18 +12,20 @@ group by t.card;
 
 -- Count the transactions that are less than $2.00.
 
-CREATE VIEW small_tx AS
-select t.card,
-       count(*) as number_of_transactions
-from transaction t
-inner join (
-  select id, count(*) as num_transactions
-  from transaction
-  where amount < 2
-  group by id
-) as t2 on t.id = t2.id
-group by t.card
-order by number_of_transactions desc;
+CREATE VIEW small_tx_count AS
+SELECT
+  (SELECT COUNT(*) 
+   FROM transaction WHERE amount < 2) AS 
+   num_transactions_less_than_2,
+  (SELECT COUNT(*) 
+   FROM transaction) AS total_transactions;
+   
+CREATE VIEW small_tx_by_card AS
+SELECT card, COUNT(*) AS num_transactions
+FROM transaction
+WHERE amount < 2
+GROUP BY card
+ORDER BY num_transactions DESC;
 
 
 
