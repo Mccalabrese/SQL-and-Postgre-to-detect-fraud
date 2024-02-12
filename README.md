@@ -15,7 +15,7 @@ visual_data_analysis.ipynb contains the bulk of my code, the outliers by standar
 
 What difference do you observe between the consumption patterns? Does the difference suggest a fraudulent transaction? Explain your rationale in the markdown report.
 
-*Cardholder 2 is making many small daily transactions with their card, while cardholder 18 is making large but infrequent transactions. I do not believe this is evidence of fraud occuring on these cards.*
+*Cardholder 2 is making many small daily transactions with their card, while cardholder 18 has infrequent large transactions that break the normal spending pattern through the year. This may be cause for concern that these transactions could be fraudulent.*
 
 ### Cardholder 25 outlier transactions:
 
